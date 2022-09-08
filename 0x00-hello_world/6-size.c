@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: This prints out the bytes of intrinsic datatypes using the sizeof() function
+ * Description: This prints out the bytes of datatypes using sizeof()
  * Return: Always 0  (Success)
  */
 
