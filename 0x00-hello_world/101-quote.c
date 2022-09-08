@@ -10,7 +10,8 @@
 */
 int main(void)
 {
-	char quotes[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	write(1, quotes, 59);
+	char quot[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	
+	write(1, quot, 59);
 	return (1);
 }
