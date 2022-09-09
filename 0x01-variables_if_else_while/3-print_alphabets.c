@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: This displays the UPPERCASE of the alphabets
+ * Description: prints both lower and UPPER case of the alphabet
  *
  * Return: Always 0 (Success)
  *
@@ -14,13 +14,13 @@ int main(void)
 	char lower = 'a';
 	char UPPER = 'A';
 
-	while (lower <= 'a')
+	while (lower <= 'z')
 	{
 		putchar(lower);
 		++lower;
 	}
 
-	while (UPPER <= 'A')
+	while (UPPER <= 'Z')
 	{
 		putchar(UPPER);
 		++UPPER;
