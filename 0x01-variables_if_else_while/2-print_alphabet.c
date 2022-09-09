@@ -10,13 +10,16 @@
 
 int main(void)
 {
-	char letters = 'a'; /* variable initialization*/
+	char lower = 'a'; /* variable initialization*/
 
-	while (letters <= 'z')
+	while (lower <= 'z')
 	{
-		putchar(letters);
-		++letters; /*increment lettters*/
+		putchar(lower);
+		++lower; /*increment variable lower*/
 	}
+	putchar("\n");
+
+	return (0);
 
 }
 
