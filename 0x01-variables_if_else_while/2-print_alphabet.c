@@ -17,7 +17,7 @@ int main(void)
 		putchar(lower);
 		++lower; /*increment variable lower*/
 	}
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 
