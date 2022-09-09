@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
- *
  * main - Entry point
  *
  * Description: print all number of bas16 in lowercase
@@ -25,7 +24,6 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-	
 
 }
 
