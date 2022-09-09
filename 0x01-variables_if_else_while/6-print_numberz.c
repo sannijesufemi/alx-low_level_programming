@@ -11,12 +11,11 @@
 int main(void)
 {
 	int num = 0;
-	char i;
 
 	while (num <= 9)
 	{
-		i = (int)num;
-		putchar(i);
+		/*This converts the value to ASCII*/
+		putchar(num + '0');
 		++num;
 	}
 	putchar('\n');
