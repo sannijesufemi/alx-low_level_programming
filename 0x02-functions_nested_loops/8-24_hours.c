@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
- * jack_bauer - prints min and hour of the day
+ * jack_bauer - This prints min and hr of the day  in 24 format
 */
 
 void jack_bauer(void)
