@@ -1,14 +1,11 @@
 #include"main.h"
 
 /**
- * main - Entry point
- *
- * Description - print lowercase a - z using _putchar function
- *
- * Return: Always 0 (Success)
+ *print_alphabet: This prints lowercase a -z using the 
+ *		_putchar function as print
 */
 
-int main(void)
+void print_alphabet(void)
 {
 	char ch = 'a';
 
