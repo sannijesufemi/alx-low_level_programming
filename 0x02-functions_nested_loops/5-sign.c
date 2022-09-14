@@ -20,7 +20,7 @@ int print_sign(int n)
 		_putchar(48 + 0);
 		return (0);
 	}
-	else if (n < 1)
+	else
 	{
 		_putchar(45 + 0);
 		return (-1);
