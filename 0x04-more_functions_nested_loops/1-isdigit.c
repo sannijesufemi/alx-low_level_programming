@@ -1,4 +1,3 @@
-#include"main"
 
 /**
  * _isdigit - Checks if the input  is a digit or not
