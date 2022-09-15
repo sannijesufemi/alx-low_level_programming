@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
- * main - tests if a number is positive or negative
+ * main - tests function that prints if integer is positive or negative:wq
  * Return: 0
 */
 
