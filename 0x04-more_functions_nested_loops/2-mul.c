@@ -1,4 +1,3 @@
-#include"main"
 
 /**
  * mul - computes multiplication of two numbers
