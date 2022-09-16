@@ -1,21 +1,26 @@
-#include"main.h"
+#include <stdio.h>
 
 /**
- * print_square - print a square using the character #
+ * main - prime numbers
  *
- * @size: is the size of the square
- *
- * Return: Always 0 (Success)
-*/
+ * Return: 0
+ */
 
-void print_square(int size)
+int main(void)
 {
-	int row, column;
+	long num = 612852475143;
+	long divisor = 2;
+	long larg_prim = 0;
 
-	for (row = 1; row <= size; ++row)
+	while (num != 1)
 	{
-		for (column = 1; column <= size; ++column)
-			_putchar('#');
-		_putchar('\n');
+		if (num % divisor == 0)
+		{
+			num = num / divisor;
+			larg_prim = divisor;
+		}
+		divisor += 1;
 	}
+	printf("%ld\n", larg_prim);
+	return (0);
 }
