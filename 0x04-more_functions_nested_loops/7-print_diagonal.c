@@ -3,7 +3,7 @@
 /**
  * print_diagonal - print a diagonal line
  *
- * @n: The number of time the \ character will be printed
+ * @n: The number of times the \ character will be printed
  *
 */
 
